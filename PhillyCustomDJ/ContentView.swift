@@ -9,21 +9,20 @@ struct ContentView: View {
     @State private var selection: Int = 0
     
     var body: some View {
-        Text("This")
-            .font(Font.custom("TwCenMT-Regular", size: 120))
-        //        TabView(selection: $selection) {
-        //            CocktailView()
-        //                .tabItem {
-        //                    Image(systemName: "music.note")
-        //                    Text("Mixes")
-        //                }
-        //                .tag(1)
-        //            EventView()
-        //                .tabItem {
-        //                    Image(systemName: "person")
-        //                    Text("My Event")
-        //                }
-        //        }
+        
+                TabView(selection: $selection) {
+                    CocktailView()
+                        .tabItem {
+                            Image(systemName: "music.note")
+                            Text("Mixes")
+                        }
+                        .tag(1)
+                    EventView()
+                        .tabItem {
+                            Image(systemName: "person")
+                            Text("My Event")
+                        }
+                }
         
         
     }
@@ -37,8 +36,9 @@ func testFont() {
         }
     }
 }
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
