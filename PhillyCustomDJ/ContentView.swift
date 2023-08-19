@@ -8,8 +8,9 @@ import SwiftUI
 struct ContentView: View {
     var mixes: [Item] = [
         Item(title: "Out On A Limb Vol. 6", imageName: "img1"),
+        Item(title: "Jill & Mike", imageName: "Jenny"),
         Item(title: "Morris Arboretum Cocktail Hour", imageName: "img2"),
-        // Add more items here...
+        Item(title: "Jenny & Jeff", imageName: "Jeff"),
     ]
     
     @State private var selectedItem: Item? = nil
@@ -40,7 +41,6 @@ struct ContentView: View {
                             Text(item.title)
                                 .font(Font.custom("TwCenMT-Regular", size: 30))
                                 .colorInvert()
-                            
                             Spacer()
                             
                             
@@ -103,12 +103,25 @@ struct PlaylistView: View {
                     .clipped()
                     .shadow(color: Color.black.opacity(0.15), radius: 5, x: 0, y: 5)
                 Text(item.title)
-                    .font(Font.custom("TwCenMT-Regular", size: 40))
+                    .font(Font.custom("TwCenMT-Regular", size: 32))
                     .shadow(color: Color.black.opacity(0.15), radius: 5, x: 0, y: 5)
+                Spacer()
             }
             
             .padding()
 
+            HStack{
+                Image("spotify")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                    .edgesIgnoringSafeArea(.all)
+                Image("appleMusic")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                    .edgesIgnoringSafeArea(.all)
+            }
             // ScrollView for the numbered playlist
             ScrollView {
                 VStack(alignment: .trailing) {

@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		2C67E0F92A9159090075181A /* TwCenMT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TwCenMT-Regular.ttf"; path = "../../../Downloads/Twentieth Century Font/TwCenMT-Regular.ttf"; sourceTree = "<group>"; };
 		2C67E0FB2A915BE50075181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2C67E0FC2A917D4E0075181A /* PhillyCustomDJ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhillyCustomDJ.entitlements; sourceTree = "<group>"; };
 		2CD4D5DC2A8EDAE6004217E0 /* PhillyCustomDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillyCustomDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCustomDJApp.swift; sourceTree = "<group>"; };
 		2CD4D5E12A8EDAE6004217E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		2CD4D5DE2A8EDAE6004217E0 /* PhillyCustomDJ */ = {
 			isa = PBXGroup;
 			children = (
+				2C67E0FC2A917D4E0075181A /* PhillyCustomDJ.entitlements */,
 				2C67E0FB2A915BE50075181A /* Info.plist */,
 				2C67E0F92A9159090075181A /* TwCenMT-Regular.ttf */,
 				2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */,
@@ -428,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhillyCustomDJ/PhillyCustomDJ.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhillyCustomDJ/Preview Content\"";
@@ -458,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhillyCustomDJ/PhillyCustomDJ.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhillyCustomDJ/Preview Content\"";
