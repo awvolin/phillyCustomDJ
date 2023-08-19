@@ -14,6 +14,8 @@
 		2CD4D5F12A8EDAE6004217E0 /* PhillyCustomDJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D5F02A8EDAE6004217E0 /* PhillyCustomDJTests.swift */; };
 		2CD4D5FB2A8EDAE6004217E0 /* PhillyCustomDJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D5FA2A8EDAE6004217E0 /* PhillyCustomDJUITests.swift */; };
 		2CD4D5FD2A8EDAE6004217E0 /* PhillyCustomDJUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D5FC2A8EDAE6004217E0 /* PhillyCustomDJUITestsLaunchTests.swift */; };
+		2CD4D60A2A8EDDB5004217E0 /* CocktailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D6092A8EDDB5004217E0 /* CocktailView.swift */; };
+		2CD4D60C2A8EDEFC004217E0 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D60B2A8EDEFC004217E0 /* EventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2CD4D5F62A8EDAE6004217E0 /* PhillyCustomDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhillyCustomDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD4D5FA2A8EDAE6004217E0 /* PhillyCustomDJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCustomDJUITests.swift; sourceTree = "<group>"; };
 		2CD4D5FC2A8EDAE6004217E0 /* PhillyCustomDJUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCustomDJUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CD4D6092A8EDDB5004217E0 /* CocktailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailView.swift; sourceTree = "<group>"; };
+		2CD4D60B2A8EDEFC004217E0 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */,
 				2CD4D5E12A8EDAE6004217E0 /* ContentView.swift */,
+				2CD4D60B2A8EDEFC004217E0 /* EventView.swift */,
+				2CD4D6092A8EDDB5004217E0 /* CocktailView.swift */,
 				2CD4D5E32A8EDAE6004217E0 /* Assets.xcassets */,
 				2CD4D5E52A8EDAE6004217E0 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD4D60A2A8EDDB5004217E0 /* CocktailView.swift in Sources */,
 				2CD4D5E22A8EDAE6004217E0 /* ContentView.swift in Sources */,
 				2CD4D5E02A8EDAE6004217E0 /* PhillyCustomDJApp.swift in Sources */,
+				2CD4D60C2A8EDEFC004217E0 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
