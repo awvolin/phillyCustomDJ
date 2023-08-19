@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C67E0FA2A9159090075181A /* TCM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2C67E0F92A9159090075181A /* TCM.TTF */; };
+		2C67E0FA2A9159090075181A /* TwCenMT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C67E0F92A9159090075181A /* TwCenMT-Regular.ttf */; };
 		2CD4D5E02A8EDAE6004217E0 /* PhillyCustomDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */; };
 		2CD4D5E22A8EDAE6004217E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4D5E12A8EDAE6004217E0 /* ContentView.swift */; };
 		2CD4D5E42A8EDAE6004217E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD4D5E32A8EDAE6004217E0 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C67E0F92A9159090075181A /* TCM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = TCM.TTF; path = "../../../Downloads/Twentieth Century Font/TCM.TTF"; sourceTree = "<group>"; };
+		2C67E0F92A9159090075181A /* TwCenMT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TwCenMT-Regular.ttf"; path = "../../../Downloads/Twentieth Century Font/TwCenMT-Regular.ttf"; sourceTree = "<group>"; };
 		2C67E0FB2A915BE50075181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2CD4D5DC2A8EDAE6004217E0 /* PhillyCustomDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillyCustomDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCustomDJApp.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				2C67E0FB2A915BE50075181A /* Info.plist */,
-				2C67E0F92A9159090075181A /* TCM.TTF */,
+				2C67E0F92A9159090075181A /* TwCenMT-Regular.ttf */,
 				2CD4D5DF2A8EDAE6004217E0 /* PhillyCustomDJApp.swift */,
 				2CD4D5E12A8EDAE6004217E0 /* ContentView.swift */,
 				2CD4D60B2A8EDEFC004217E0 /* EventView.swift */,
@@ -242,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C67E0FA2A9159090075181A /* TCM.TTF in Resources */,
+				2C67E0FA2A9159090075181A /* TwCenMT-Regular.ttf in Resources */,
 				2CD4D5E72A8EDAE6004217E0 /* Preview Assets.xcassets in Resources */,
 				2CD4D5E42A8EDAE6004217E0 /* Assets.xcassets in Resources */,
 			);

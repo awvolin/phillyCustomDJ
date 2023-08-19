@@ -9,13 +9,8 @@ struct ContentView: View {
     @State private var selection: Int = 0
     
     var body: some View {
-        Button(action: testFont) {
-            Text("test")
-        }
-
-    
         Text("This")
-            .font(Font.custom("TCM.tff", size: 120))
+            .font(Font.custom("TwCenMT-Regular", size: 120))
         //        TabView(selection: $selection) {
         //            CocktailView()
         //                .tabItem {
